@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    z-index: 0;
+    height: 100%;
+}
+
+#menu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    border-radius: 3px;
+    width: 180px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+#menu a:last-child {
+    border: none;
+}
+
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}
+
+#menu a.active {
+    background-color: #8DCF3F;
+    color: #ffffff;
+}
+
+#menu a.active:hover {
+    background: #79bb2b;
+}
+
+#menu_geojson {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    right: 10px;
+    border-radius: 3px;
+    width: 180px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+#menu_geojson a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+#menu_geojson a:last-child {
+    border: none;
+}
+
+#menu_geojson a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}
+
+#menu_geojson a.active {
+    background-color: #8DCF3F;
+    color: #ffffff;
+}
+
+#menu_geojson a.active:hover {
+    background: #79bb2b;
+}
