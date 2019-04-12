@@ -1,10 +1,9 @@
-# JSWebMapApp
+# JavaScriptではじめるWebマップアプリケーション
 
 ![README01](img/README01.png)
 
 <br>
 
-## JavaScriptではじめるWebマップアプリケーション  
 技術書典6で販売する書籍のサンプルデータ用のリポジトリです。  
 
 [詳細情報](https://techbookfest.org/event/tbf06/circle/64070001)
